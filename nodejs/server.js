@@ -12,6 +12,10 @@ const app = express();
 // CORS Configuration
 const allowedOrigins = [
   'http://localhost:5173', // Local frontend (development)
+<<<<<<< HEAD
+=======
+  'https://frontend-lgg7.onrender.com', // Deployed frontend
+>>>>>>> 79e52679a0d937f9b0bd579be035675a3eb2db00
 ];
 
 app.use(
@@ -105,8 +109,12 @@ const Contact = mongoose.model('Contact', ContactSchema);
 // User Registration
 app.post('/register', async (req, res) => {
   const { username, email, password } = req.body;
+<<<<<<< HEAD
   console.log(username,email,password);
   
+=======
+
+>>>>>>> 79e52679a0d937f9b0bd579be035675a3eb2db00
   try {
     const existingUser = await User.findOne({ email });
     if (existingUser) return res.status(400).send('User already exists.');

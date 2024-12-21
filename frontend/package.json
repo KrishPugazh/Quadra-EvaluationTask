@@ -18,7 +18,10 @@
     "connect-mongodb-session": "^5.0.0",
     "express": "^4.21.2",
     "express-session": "^1.18.1",
+<<<<<<< HEAD
     "health-advisor": "file:",
+=======
+>>>>>>> 79e52679a0d937f9b0bd579be035675a3eb2db00
     "jspdf": "^2.5.2",
     "jspdf-autotable": "^3.8.4",
     "mongoose": "^8.9.0",

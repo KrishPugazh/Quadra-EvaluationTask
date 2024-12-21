@@ -11,7 +11,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "backend": "file:",
+=======
+>>>>>>> 79e52679a0d937f9b0bd579be035675a3eb2db00
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
     "connect-mongodb-session": "^5.0.0",

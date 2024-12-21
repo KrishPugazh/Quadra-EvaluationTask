@@ -23,3 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+<<<<<<< HEAD
+=======
+# Add this to your .gitignore file
+.env
+
+>>>>>>> 79e52679a0d937f9b0bd579be035675a3eb2db00
