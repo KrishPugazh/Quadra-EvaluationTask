@@ -12,10 +12,6 @@ const app = express();
 // CORS Configuration
 const allowedOrigins = [
   'http://localhost:5173', // Local frontend (development)
-<<<<<<< HEAD
-=======
-  'https://frontend-lgg7.onrender.com', // Deployed frontend
->>>>>>> 79e52679a0d937f9b0bd579be035675a3eb2db00
 ];
 
 app.use(
